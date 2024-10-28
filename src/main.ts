@@ -1,7 +1,6 @@
-import "./assets/main.css";
-import "/libs/bootstrap.css";
-
+// src/main.ts (or main.js)
 import { createApp } from "vue";
-import App from "./models/App.vue";
+import App from "./App.vue";
+import "/libs/bootstrap.css";
 
 createApp(App).mount("#app");
